@@ -1,6 +1,8 @@
+using ClipboardManager.Core.Services.Contracts;
+
 namespace ClipboardManager.App.Platform;
 
-public class MacClipboardMonitor
+public class MacClipboardMonitor : IClipboardMonitor
 {
     
 }
